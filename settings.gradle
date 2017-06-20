@@ -1,0 +1,1 @@
+include ':app', ':mina', ':minahelper'

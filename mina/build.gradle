@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/mina-core-2.0.16.jar')
+    compile files('libs/slf4j-api-1.7.21.jar')
+    compile project(':minahelper')
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
